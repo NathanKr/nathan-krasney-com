@@ -1,0 +1,14 @@
+.Footer{
+    display: flex;
+}
+
+.Footer > div{
+    flex-grow: 1 ;
+}
+
+.Footer a {
+    margin: 1rem;
+  }
+
+  
+  

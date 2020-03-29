@@ -1,0 +1,15 @@
+.Top {
+  flex-grow: 1;
+}
+
+.Top a {
+  margin: 1rem;
+}
+
+.Top  header > div{
+  display: flex;
+}
+
+.Top  header h2{
+  flex-grow: 1;
+}

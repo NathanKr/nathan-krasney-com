@@ -1,0 +1,14 @@
+.About {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+ 
+.About img {
+  border-radius: 50%;
+}
+
+.About > div {
+  text-align: center;
+}

@@ -1,0 +1,10 @@
+.ClickedTestimonial  img{
+    border-radius: 50%;
+    transform: scale(0.5);
+}
+
+
+
+.ClickedTestimonial {
+    text-align: center;
+}

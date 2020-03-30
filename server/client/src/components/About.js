@@ -5,7 +5,15 @@ const About = () => {
   return (
     <div className="About">
       <div style={{ width: "70%" }}>
-        <img src="images/profile.jpg" />
+        <p style={{ color: "red" }}>
+          sometimes it take 0.5 sec for the image to show up , should it be
+          imported as done{" "}
+          <a href="https://create-react-app.dev/docs/adding-images-fonts-and-files/">
+            here
+          </a>{" "}
+          ???
+        </p>
+        <img src="images/profile.jpg" alt=""/>
         <h4>Nathan Krasney</h4>
         <p>CTO , Developer , Lecturer and Mentor</p>
         <p>

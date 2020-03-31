@@ -3,6 +3,7 @@
 
 
 // --- for testimonial two is enough
-export const  testimonial_category_courses = "Courses";
+export const  testimonial_category_online_course = "Course";
+export const  testimonial_category_bootcamp = "Bootcamp";
 export const  testimonial_category_mentoring = "Mentoring";
 

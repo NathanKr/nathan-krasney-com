@@ -1,14 +1,36 @@
-.Footer{
-    display: flex;
+.Footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #0a0808;
+  color: white;
+  padding: 2rem 0;
+  align-items: center;
 }
 
-.Footer > div{
-    flex-grow: 1 ;
+.Footer-icons {
+  order: -3;
+  margin-bottom: 1rem;
+  justify-content: space-around;
+}
+
+.Footer > div {
+  flex-grow: 1;
 }
 
 .Footer a {
-    margin: 1rem;
-  }
+  margin: 1rem;
+}
 
-  
-  
+.fa-icon {
+  font-size: 2rem;
+  color: white;
+  width: 2rem;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 425px) {
+  .Footer-rights {
+    font-size: 0.8rem;
+  }
+}

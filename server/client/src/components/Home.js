@@ -4,9 +4,10 @@ import "./Home.css";
 const Home = () => {
   return (
     <div className="Home">
-      <div>
+      <div className="Home-primary">
         {/* <h1>Nathan Krasney</h1> */}
-        <h1>Web Development Courses & Mentoring</h1>
+        <h1 className="Home-text">Web Development <br /> Courses & <br />  Mentoring</h1>
+        <div className="Home-red-bar"></div>
       </div>
     </div>
   );

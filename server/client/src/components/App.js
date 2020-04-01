@@ -8,10 +8,12 @@ import Footer from "./Footer";
 function App() {
   return (
     <BrowserRouter>
-      <div className="App ">
-        <div className="container">
-          <Top />
-          <Footer />
+      <div className="App">
+        <div className="">
+          <div className="">
+            <Top />
+            <Footer />
+          </div>
         </div>
       </div>
     </BrowserRouter>

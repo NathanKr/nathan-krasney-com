@@ -26,8 +26,8 @@ const Top = () => {
           <Link to="/Testimonials">Testimonials</Link>
           <Link to="/Events">Events</Link>
         </div> */
-          <Navbar collapseOnSelect expand="lg"  variant="dark">
-            <Navbar.Brand href="#home">
+          <Navbar collapseOnSelect expand="xl"  variant="dark">
+            <Navbar.Brand>
               <h2>
                 <span className="nameColor">Nathan</span> Krasney
               </h2>

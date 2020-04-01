@@ -1,6 +1,9 @@
 import React from "react";
 import "./Footer.css";
 import udemy from "../icons/udemy-icon.png";
+import github from "../icons/github.png";
+import youtube from "../icons/youtube.png";
+import linkedin from "../icons/linkedin-logo.png";
 
 const Footer = () => {
   return (
@@ -10,13 +13,13 @@ const Footer = () => {
       </div>
       <div className="Footer-icons">
         <a href="https://github.com/NathanKr">
-          <i className="fa fa-github fa-icon"></i>
+          <img src={github} alt="udemy-icon" className="fa-icon" />
         </a>
         <a href="https://www.linkedin.com/in/nathankrasney">
-          <i className="fa fa-linkedin fa-icon"></i>
+          <img src={linkedin} alt="udemy-icon" className="fa-icon" />
         </a>
         <a href="https://www.youtube.com/channel/UChOjjkqtxDPixwU7IFC1YHw">
-          <i className="fa fa-youtube fa-icon"></i>
+          <img src={youtube} alt="udemy-icon" className="fa-icon" />
         </a>
         <a href="https://www.udemy.com/user/nathan-krasney/">
           <img src={udemy} alt="udemy-icon" className="fa-icon" />

@@ -44,6 +44,7 @@ const Testimonials = () => {
     <div>
       <p style={{color:"red"}}>fix the problem - bacground size is not enough</p>
       <p>should i add name and position ??????</p>
+      <p>add name ? and company ?</p>
       Testimonials - use bootstrap card ????
       {items}
     </div>

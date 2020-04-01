@@ -8,25 +8,36 @@ import {
 const Events = () => {
   const events = [
     {
-      startDt: Date.now(),
-      showTime : false,
+      // --- year , month 0-11 , day 1-..
+      startDt: new Date(2020, 4, 30),
+      showTime: false,
       type: service_category_bootcamp,
-      title: "Web development fullstack bootcamp",
-      desc: "some description of the bootcamp"
+      title: "Web development MERN fullstack bootcamp",
+      desc: (
+        <span>
+          Location : Lod , Israel{" "}
+          <span style={{ color: "red" }}>need call for action e.g. get more info</span>
+        </span>
+      )
     },
     {
-      startDt: Date.now(),
-      showTime : true,
+      startDt: new Date(2020, 3, 1, 17),
+      showTime: true,
       title: "Q&A session for junior web developers",
       type: service_category_qa,
-      desc: "This session is public and free"
+      desc: (
+        <span>
+          Free and public 1 hour zoom session, i will meet you{" "}
+          <a href="https://zoom.us/j/5927060004">here</a>
+        </span>
+      )
     }
   ];
   const elements = events.map((item, index) => (
     <Event
       key={index}
       startDt={item.startDt}
-      showTime = {item.showTime}
+      showTime={item.showTime}
       type={item.type}
       title={item.title}
       desc={item.desc}

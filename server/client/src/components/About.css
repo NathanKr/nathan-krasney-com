@@ -46,7 +46,6 @@
   display: flex;
   margin-right: 1.2rem;
   flex-wrap: wrap;
-  justify-content: start;
 }
 
 .About-description-images .img {

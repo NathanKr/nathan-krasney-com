@@ -21,27 +21,27 @@ const Mentoring = () => {
 
         <div className="Mentoring-icons-container">
             <div className="icon-container">
-                <img className="icon-container-img" src={codeReviewIcon}/>
+                <img className="icon-container-img" src={codeReviewIcon} alt="Icon"/>
                 <p className="icon-container-para">Code Reviews</p>
             </div>
             <div className="icon-container">
-                <img className="icon-container-img" src={qaIcon}/>
+                <img className="icon-container-img" src={qaIcon} alt="Icon"/>
                 <p className="icon-container-para">Q&A Sessions</p>
             </div>
             <div className="icon-container">
-                <img className="icon-container-img" src={manualIcon}/>
+                <img className="icon-container-img" src={manualIcon} alt="Icon"/>
                 <p className="icon-container-para">Develpment projects guiding (final , self)</p>
             </div>
             <div className="icon-container">
-                <img className="icon-container-img" src={professionalIcon}/>
+                <img className="icon-container-img" src={professionalIcon} alt="Icon"/>
                 <p className="icon-container-para">What and how to learn and get professional</p>
             </div>
             <div className="icon-container">
-                <img className="icon-container-img" src={partnershipHandshakeIcon}/>
+                <img className="icon-container-img" src={partnershipHandshakeIcon} alt="Icon"/>
                 <p className="icon-container-para">Tips for getting a job</p>
             </div>
             <div className="icon-container">
-                <img className="icon-container-img" src={internetIcon}/>
+                <img className="icon-container-img" src={internetIcon} alt="Icon"/>
                 <p className="icon-container-para">Deploy your app to the cloud </p>
             </div>
         </div>
@@ -52,7 +52,7 @@ const Mentoring = () => {
 
 export default Mentoring;
 
-{
+// {
   /* <p>............ use collapse ??? </p>
 You are out of college \ bootcamp and you are looking for a job as junior web developer. You are
 good but you are struggling to get a job .You need professional help from someone that
@@ -66,4 +66,4 @@ mentor to help you
   <li>Tips for getting a job</li>
   <li>Deploy your app to the cloud </li>
 </ol> */
-}
+// }

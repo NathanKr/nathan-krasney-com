@@ -1,7 +1,8 @@
 import React from "react";
-import ClickedTestimonial from "./ClickedTestimonial";
+// import ClickedTestimonial from "./ClickedTestimonial";
 import { testimonial_category_bootcamp } from "../logic/testimonialCategories";
-import './Testimonials.css'
+import "./Testimonials.css";
+import { Carousel } from "react-bootstrap";
 
 const Testimonials = () => {
   const array = [
@@ -28,27 +29,40 @@ const Testimonials = () => {
       href: "https://www.linkedin.com/in/batchen-itbarach/",
       img_src:
         "https://media-exp1.licdn.com/dms/image/C4D03AQHvBVOOhThpcQ/profile-displayphoto-shrink_200_200/0?e=1591228800&v=beta&t=-hurJGIKDBj_8Y3_F8u6nd-2MPS8pY_uBL_r1rvRqtk"
-    }
+    },
   ];
 
   const items = array.map((item, index) => (
-    <ClickedTestimonial
-      key={index}
-      testimonial_category={item.testimonial_category}
-      desc={item.desc}
-      href={item.href}
-      img_src={item.img_src}
-    />
+    <Carousel.Item key={index}>
+      <img className="Carousel-item-img" src={item.img_src} alt="Testimonial-pic" />
+      <Carousel.Caption>
+        <h3>My name is : .....</h3>
+        <h4>Job/Profession</h4>
+        <p>{item.desc}</p>
+      </Carousel.Caption>
+    </Carousel.Item>
   ));
 
   return (
-    <div>
-      <p style={{color:"red"}}>fix the problem - bacground size is not enough</p>
-      <p>should i add name and position ??????</p>
-      Testimonials - use bootstrap card ????
-      {items}
+    <div className="Testimonials">
+      <h1 className="Testimonials-title">Success stories from students</h1>
+      <Carousel indicators="true">
+        { items }
+      </Carousel>
     </div>
   );
 };
 
 export default Testimonials;
+
+// <p style={{color:"red"}}>fix the problem - bacground size is not enough</p>
+// <p>should i add name and position ??????</p>
+// Testimonials - use bootstrap card ????
+// {items}
+//  <ClickedTestimonial
+//       key={index}
+//       testimonial_category={item.testimonial_category}
+//       desc={item.desc}
+//       href={item.href}
+//       img_src={item.img_src}
+//     />

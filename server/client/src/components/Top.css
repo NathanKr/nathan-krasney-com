@@ -3,7 +3,7 @@
   color: white;
 }
 
-.Top a {
+.Top .navigationLink {
   margin: 1rem;
   font-size: 1.2rem;
   color: inherit;
@@ -14,7 +14,7 @@
   display: inline-block;
 }
 
-.Top a::after {
+.Top .navigationLink::after {
   display: inline-block;
   position: absolute;
   content: "";
@@ -26,7 +26,7 @@
   transition: background-color 0.3s ease-in;
 }
 
-.Top a:hover::after {
+.Top .navigationLink:hover::after {
   width: 100%;
   background-color: var(--name-color);
 }

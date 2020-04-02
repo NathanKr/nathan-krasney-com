@@ -1,0 +1,104 @@
+.Courses {
+  min-height: var(--bottom-footer);
+  color: black;
+}
+
+.Courses-online-title {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.Courses-main-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.coursesInnerContainer {
+  padding: 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.courseOnline {
+  border: 1px solid black;
+  border-radius: 2px;
+  align-self: stretch;
+}
+
+.course-img {
+  position: relative;
+}
+
+.course-img img {
+  max-width: 100%;
+}
+
+.course-name-text {
+  padding: 1rem 0;
+  background-color: black;
+}
+
+.course-name-text p {
+  margin: 0;
+  text-align: center;
+  color: white;
+  padding: 0 0.5rem;
+}
+
+.course-btn-enroll {
+  background-color: var(--name-color);
+  padding: 0.5rem 1.5rem;
+  display: inline-block;
+  position: absolute !important;
+  bottom: 0;
+  right: 0;
+  margin: 0 !important;
+}
+
+.course-btn-enroll:hover {
+  color: white;
+}
+
+.course-btn-enroll::after {
+  content: none !important;
+}
+
+.Courses-bootcamps-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.Course-bootcamp {
+    position: relative;
+}
+
+.bootcamp-details {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.493);
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in;
+}
+
+.Course-bootcamp:hover .bootcamp-details {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* .Course-bootcamp {
+    max-width: 300px;
+    justify-self: stretch;
+} */

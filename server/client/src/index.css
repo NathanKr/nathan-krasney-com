@@ -23,7 +23,8 @@ code {
 /* traversy color #DF292D */
 
 :root {
-  --name-color: #DF292D 
+  --name-color: #DF292D;
+  --bottom-footer: calc(100vh - 3rem);
 }
 
 *,

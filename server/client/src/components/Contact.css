@@ -1,8 +1,36 @@
 .Contact {
-  /* min-height: calc(100vh - 1rem); */
-  display:flex;justify-content: center; align-items: center;
+  min-height: var(--bottom-footer);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
 }
 
-.Contact > div{
-    text-align: center;
+.Contact-container {
+  max-width: 800px;
+  width: 100%;
+  margin: auto;
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 2rem 2rem;
+
+  display: flex;
+  align-items: center;
 }
+
+.Contact-container span {
+  margin-right: 0.5rem;
+}
+
+.Contact-container h2 {
+  margin-right: 1rem;
+}
+
+@media screen and (max-width: 729) {
+  .Contact-container {
+    flex-direction: column;
+  }
+}
+
+
+

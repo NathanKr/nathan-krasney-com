@@ -1,14 +1,10 @@
 .About {
-  min-height: calc(100vh - 3rem);
+  min-height: var(--bottom-footer);
   /* max-width: 1200px; */
   margin: 4rem auto;
   margin-bottom: 0;
   display: flex;
   color: black;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-  /* height: 100%; */
 }
 
 .About-img {

@@ -1,15 +1,16 @@
 import React from "react";
 import "./Contact.css";
+import mailIcon from '../icons/mail.png'
 
 const Contact = () => {
   return (
     <div className="Contact">
-      <div>
-        <h2>Contact me</h2>
-        <p>natankrasney@gmail.com</p>
-        <a href="https://www.linkedin.com/in/nathankrasney">
-          <i className=" fa fa-linkedin"></i>
-        </a>
+      <div className="Contact-container">
+        <h2>
+        <span><img src={mailIcon} alt="mailIcon"/></span> 
+        Contact me: 
+        </h2>
+        <h3>natankrasney@gmail.com</h3>
       </div>
     </div>
   );

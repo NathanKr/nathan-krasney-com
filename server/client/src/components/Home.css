@@ -1,9 +1,7 @@
 .Home {
-  min-height: calc(100vh - 3rem);
+  min-height: var(--bottom-footer);
   display: flex;
-  /* justify-content: center;  */
   align-items: center;
-  /* height:100%; */
   position: relative;
   background: linear-gradient(
       to right,

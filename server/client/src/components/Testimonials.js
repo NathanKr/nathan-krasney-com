@@ -1,6 +1,7 @@
 import React from "react";
 import ClickedTestimonial from "./ClickedTestimonial";
 import { testimonial_category_bootcamp } from "../logic/testimonialCategories";
+import './Testimonials.css'
 
 const Testimonials = () => {
   const array = [

@@ -48,6 +48,7 @@
 
 .course-btn-enroll {
   background-color: var(--name-color);
+  font-weight: bold;
   padding: 0.5rem 1.5rem;
   display: inline-block;
   position: absolute !important;
@@ -85,17 +86,26 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.493);
     color: white;
+    text-align: left;
+    padding: 0 1rem;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     transition: all 0.3s ease-in;
 }
+
 
 .Course-bootcamp:hover .bootcamp-details {
     opacity: 1;
     visibility: visible;
+}
+
+@media screen and (max-width: 670px) {
+    .Courses-bootcamps-container {
+        grid-template-columns: 1fr;
+    }
 }
 
 /* .Course-bootcamp {

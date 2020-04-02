@@ -73,7 +73,7 @@ const Courses = () => {
               <p>Web Develpment Bootcamps (Front \ Fullstack)</p>
             </div>
 
-            <div className="bootcamp-details text-center">
+            <div className="bootcamp-details">
               <h3>FullStack Bootcamp</h3>
               <p>lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum</p>
             </div>

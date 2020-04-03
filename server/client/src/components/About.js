@@ -1,11 +1,17 @@
 import React from "react";
 import "./About.css";
+import nathanProfile from '../images/nathan-profile.jpg';
+// import nathanProfile2 from '../images/nathan-profile-2.jpg';
+
+import nathanStandPic from '../images/nathan-stand-pic.png';
+import nathanStandPic2 from '../images/nathan-stand-pic-2.png';
+import nathanStandPic3 from '../images/nathan-stand-pic-3.png';
 
 const About = () => {
   return (
     <div className="About">
       <div className="About-img">
-        <img src="http://via.placeholder.com/640x360" alt="img"/>
+        <img src={nathanProfile} alt="img"/>
       </div>
 
       <div className="About-description">
@@ -26,13 +32,13 @@ const About = () => {
 
         <div className="About-description-images">
           <div className="About-description-img-1 img">
-            <img src="http://via.placeholder.com/300x300" alt="img"/>
+            <img src={nathanStandPic} alt="img"/>
           </div>
           <div className="About-description-img-1 img">
-            <img src="http://via.placeholder.com/300x300" alt="img"/>
+            <img src={nathanStandPic2} alt="img"/>
           </div>
           <div className="About-description-img-1 img">
-            <img src="http://via.placeholder.com/300x300" alt="img"/>
+            <img src={nathanStandPic3} alt="img"/>
           </div>
         </div>
       </div>

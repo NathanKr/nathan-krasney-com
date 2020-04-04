@@ -55,14 +55,4 @@ const Testimonials = () => {
 
 export default Testimonials;
 
-// <p style={{color:"red"}}>fix the problem - bacground size is not enough</p>
-// <p>should i add name and position ??????</p>
-// Testimonials - use bootstrap card ????
-// {items}
-//  <ClickedTestimonial
-//       key={index}
-//       testimonial_category={item.testimonial_category}
-//       desc={item.desc}
-//       href={item.href}
-//       img_src={item.img_src}
-//     />
+

@@ -13,6 +13,7 @@
     max-width: 1200px;
     width: 100%;
     margin: 2rem auto;
+    padding: 1rem;
     display: grid;
     /* justify-items: center; */
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));

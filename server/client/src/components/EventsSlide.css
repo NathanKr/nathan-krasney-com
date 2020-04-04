@@ -21,6 +21,10 @@
   animation-fill-mode: both;
 }
 
+.EventsSlide-container:hover {
+  animation-play-state: paused;
+}
+
 .EventsSlide-text {
   margin: 0 1rem;
   text-align: center;

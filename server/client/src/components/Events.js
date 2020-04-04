@@ -8,7 +8,7 @@ import {
 import './Events.css';
 
 const Events = () => {
-  const events = [
+   const events = [
     {
       startDt: Date.now(),
       showTime : false,

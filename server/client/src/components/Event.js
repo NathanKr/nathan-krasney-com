@@ -29,14 +29,3 @@ const Event = ({ startDt, showTime, type, title, desc }) => {
 
 export default Event;
 
-{
-  /* <p>Due data : {dateTimeFormated}</p>
-<p>Subject : {title}</p>
-<p>Description : {desc}</p> */
-}
-
-{
-  /* <h4 className="Event-name">{title}</h4>
-      <p className="Event-time">Date : {dateTimeFormated}</p>
-      <p className="Event-desc">{ desc }</p> */
-}

@@ -5,8 +5,10 @@ import {
   service_category_qa
 } from "../logic/serviceCategories";
 
+import './Events.css';
+
 const Events = () => {
-  const events = [
+   const events = [
     {
       // --- year , month 0-11 , day 1-..
       startDt: new Date(2020, 4, 30),
@@ -44,7 +46,17 @@ const Events = () => {
     />
   ));
 
-  return <div>{elements}</div>;
+  return (
+    <div className="Events">
+      <h1 className="Events-title">Upcoming Events</h1>
+
+      <div className="Events-container">
+        { elements }
+      </div>
+    </div>
+  ); 
 };
 
 export default Events;
+
+// {elements}

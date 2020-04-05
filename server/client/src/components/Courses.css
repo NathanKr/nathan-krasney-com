@@ -1,0 +1,25 @@
+.Courses {
+  min-height: var(--bottom-footer);
+  color: var(--black-color);
+}
+
+.Courses-online-title {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.Courses-main-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.coursesInnerContainer {
+  padding: 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+
+
+

@@ -1,6 +1,53 @@
 .Home {
+  position: relative;
+  min-height: var(--bottom-footer);
   display: flex;
-  /* justify-content: center;  */
   align-items: center;
-  height:100%;
+  position: relative;
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.39),
+      rgba(0, 0, 0, 0.39)
+    ),
+    url("../images//main-pic-2.jpg");
 }
+
+.Home-primary {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.Home-text {
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.Home-red-bar {
+  width: 10rem;
+  border-radius: 3px;
+  height: 1rem;
+  background-color: var(--name-color);
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 721px) {
+  .Home-text {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 583px) {
+  .Home-text {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 435px) {
+  .Home-text {
+    font-size: 2.5rem;
+  }
+}
+

@@ -1,6 +1,6 @@
 .Courses {
   min-height: var(--bottom-footer);
-  color: black;
+  color: var(--black-color);
 }
 
 .Courses-online-title {

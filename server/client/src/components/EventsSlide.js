@@ -27,6 +27,4 @@ const EventsSlide = () => {
 
 export default EventsSlide;
 
-// <h3 className="EventsSlide-text-1 EventsSlide-text">First Event</h3>
-// <h3 className="EventsSlide-text-2 EventsSlide-text">Second Event</h3>
-// <h3 className="EventsSlide-text-3 EventsSlide-text">Third Event</h3>
+

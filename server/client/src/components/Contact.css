@@ -37,11 +37,10 @@
   margin: 0 1rem;
   text-decoration: none;
   color: var(--white-color);
+  text-decoration: none;
 }
 
-.Contact-email:hover {
-  color: var(--name-color);
-}
+
 
 /* Media Queries */
 

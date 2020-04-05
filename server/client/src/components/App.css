@@ -1,20 +1,8 @@
 .App {
-  /* background-image: url(/images/compw3.jpg);
-  background-repeat: no-repeat;
-  
-  background-size: cover; */
-  height: 100vh;
   background-color: lightgrey;
 }
 
-
- /* traversy color #DF292D */
-
 .App .container {
   display: flex;
-  height: 100vh;
   flex-direction: column;
 }
-/* .App h1{
-   font-size: 7rem;
-} */

@@ -1,0 +1,45 @@
+.EventsSlide {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-items: center;
+  border: 1px solid var(--black-color);
+  padding: 1rem;
+  overflow: hidden;
+  background-color: var(--black-color);
+}
+
+.EventsSlide-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  animation: slide 20s linear infinite;
+  animation-fill-mode: both;
+}
+
+.EventsSlide-container:hover {
+  animation-play-state: paused;
+}
+
+.EventsSlide-text {
+  margin: 0 1rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+/* The animation itself */
+@keyframes slide {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-200%);
+  }
+}

@@ -1,15 +1,53 @@
 .Top {
   flex-grow: 1;
+  color: white;
 }
 
-.Top a {
+.Top .navigationLink {
   margin: 1rem;
+  font-size: 1.2rem;
+  color: inherit;
+  transition: all 0.2s ease-in;
+  text-decoration: none;
+
+  position: relative;
+  display: inline-block;
 }
 
-.Top  header > div{
-  display: flex;
+.Top .navigationLink::after {
+  display: inline-block;
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  transform-origin: center;
+  transition: background-color 0.3s ease-in;
 }
 
-.Top  header h2{
+.Top .navigationLink:hover::after {
+  width: 100%;
+  background-color: var(--name-color);
+}
+
+.Top .header {
+  background-color: #0a0808 !important;
+}
+
+
+.Top .nameColor {
+  color: var(--name-color);
+}
+
+.Top header h2 {
+  font-size: 2.5rem;
   flex-grow: 1;
 }
+
+@media only screen and (max-width: 1119px) {
+  .Top a::after {
+    content: none !important;
+  }
+}
+

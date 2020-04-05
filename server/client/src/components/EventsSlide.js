@@ -1,30 +1,34 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./EventsSlide.css";
 
 const EventsSlide = () => {
-  const EventsSildeArray = [
-    { eventName: "Web Development Bootcamp", date: "10/5/20" },
-    { eventName: "Q&A Sessions", date: "14/6/20" },
-    { eventName: "Interview Q&A", date: "9/7/20" },
-    { eventName: "Interview Q&A", date: "9/7/20" },
-    { eventName: "Interview Q&A", date: "9/7/20" },
-    { eventName: "Interview Q&A", date: "9/7/20" },
-  ];
+  const [EventsSildeArray, setEventsSildeArray] = useState("");
+  const eventsSlideJSON = "./data/eventSlide.json";
 
-  const eventsSlide = EventsSildeArray.map((eventS, index) => (
-    <div key={index} className="EventsSlide-text">
-      <h4 className="EventsSlide-name">{eventS.eventName}</h4>
-      <p className="EventsSlide-date">{eventS.date}</p>
-    </div>
-  ));
+  const handleSetEventSlideArray = (dataFetch) => {
+    setEventsSildeArray(dataFetch);
+  };
+
+  useEffect(() => {
+    fetch(eventsSlideJSON)
+      .then((response) => response.json())
+      .then((data) => handleSetEventSlideArray(data))
+      .catch((err) => console.log(err));
+  }, []);
+
 
   return (
     <div className="EventsSlide">
-      <div className="EventsSlide-container">{eventsSlide}</div>
+      <div className="EventsSlide-container">
+        {EventsSildeArray ? EventsSildeArray.map((eventS, index) => (
+          <div key={index} className="EventsSlide-text">
+            <h4 className="EventsSlide-name">{eventS.eventName}</h4>
+            <p className="EventsSlide-date">{eventS.date}</p>
+          </div>
+        )) : 'Loading...'}
+      </div>
     </div>
   );
 };
 
 export default EventsSlide;
-
-

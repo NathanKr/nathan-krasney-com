@@ -65,7 +65,7 @@
       left: 0;
       width: 100%;
       height: 100%;
-      background-color: var(--black-color);
+      background-color: rgba(0, 0, 0, 0.4);
       color: var(--white-color);
       text-align: left;
       padding: 0 1rem;

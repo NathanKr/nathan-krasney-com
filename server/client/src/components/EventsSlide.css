@@ -4,10 +4,10 @@
   width: 100%;
   display: flex;
   justify-items: center;
-  border: 1px solid black;
+  border: 1px solid var(--black-color);
   padding: 1rem;
   overflow: hidden;
-  background-color: black;
+  background-color: var(--black-color);
 }
 
 .EventsSlide-container {

@@ -25,6 +25,8 @@ code {
 :root {
   --name-color: #DF292D;
   --bottom-footer: calc(100vh - 3rem);
+  --black-color: #000;
+  --white-color: #fff;
 }
 
 *,

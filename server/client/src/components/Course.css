@@ -10,6 +10,7 @@
 
 .course-img img {
   max-width: 100%;
+  width: 100%;
 }
 
 .course-name-text {
@@ -69,12 +70,18 @@
   color: var(--white-color);
   text-align: left;
   padding: 0 1rem;
+  padding: 2rem;
 
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
   transition: all 0.3s ease-in;
+}
+
+.bootcamp-details-subtitle {
+  font-weight: bold;
+  margin-bottom: 1rem;
 }
 
 .Course-bootcamp:hover .bootcamp-details {

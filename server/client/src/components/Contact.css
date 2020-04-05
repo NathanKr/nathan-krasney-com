@@ -8,7 +8,7 @@
 
 .Contact-container {
   border: 2px solid var(--black-color);
-  max-width: 600px;
+  max-width: 800px;
   width: 100%;
   border-radius: 3px;
   display: flex;
@@ -28,7 +28,9 @@
 }
 
 .Contact-info-span {
+  width: 100%;
   display: inline-block;
+  font-size: 1.5rem;
 }
 
 .Contact-email {
@@ -43,6 +45,13 @@
 
 /* Media Queries */
 
+@media screen and (max-width: 650px) {
+  .Contact-info-span {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}
+
 @media screen and (max-width: 620px) {
   .Contact-container {
     flex-direction: column;
@@ -50,6 +59,19 @@
 
   .Contact-img-container {
     text-align: center;
+  }
+
+
+}
+
+@media screen and (max-width: 492px) {
+  .Contact-info-span {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Contact-email {
+    margin: 0.5rem 0;
   }
 }
 

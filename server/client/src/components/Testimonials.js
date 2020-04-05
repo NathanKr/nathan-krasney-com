@@ -2,7 +2,6 @@ import React from "react";
 // import ClickedTestimonial from "./ClickedTestimonial";
 import { testimonial_category_bootcamp } from "../logic/testimonialCategories";
 import "./Testimonials.css";
-import { Carousel } from "react-bootstrap";
 
 const Testimonials = () => {
   const array = [
@@ -39,7 +38,7 @@ const Testimonials = () => {
   ];
 
   const items = array.map((item, index) => (
-    <div className="Testimonials-container">
+    <div key={index} className="Testimonials-container">
       <div className="Testimonials-inner-container">
         <div className="Testimonials-inner-container-img">
           <a href={item.href}>

@@ -17,7 +17,7 @@
   align-items: center;
   justify-content: space-between;
   position: relative;
-  animation: slide 10s linear infinite;
+  animation: slide 12s linear infinite;
   animation-fill-mode: both;
 }
 

@@ -12,7 +12,7 @@ const Contact = () => {
 
         <div className="Contact-info-container">
           <span className="Contact-info-span">
-            Email Me:
+            Email:
             <a className="Contact-email" href="mailto:natankrasney@gmail.com">
               natankrasney@gmail.com
             </a>

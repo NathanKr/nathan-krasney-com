@@ -22,8 +22,4 @@
 
 
 
-@media screen and (max-width: 670px) {
-    .Courses-bootcamps-container {
-        grid-template-columns: 1fr;
-    }
-}
+

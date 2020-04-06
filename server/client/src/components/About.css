@@ -18,7 +18,8 @@
   max-width: 100%;
   clip-path: circle();
   height: 30rem;
-  object-fit: contain;
+  object-fit: cover;
+  object-position: center;
 }
 
 .About-description {
@@ -58,7 +59,7 @@
   width: 100%;
   height: 15rem;
   object-fit: cover;
-  object-position: top;
+  object-position: center 30%;
 }
 
 

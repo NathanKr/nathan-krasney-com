@@ -1,8 +1,18 @@
 [
-    { "eventName": "Web Development Bootcamp", "date": "10/5/20" },
-    { "eventName": "Q&A Sessions", "date": "14/6/20" },
-    { "eventName": "Interview Q&A", "date": "9/7/20" },
-    { "eventName": "Interview Q&A", "date": "9/7/20" },
-    { "eventName": "Interview Q&A", "date": "9/7/20" },
-    { "eventName": "Interview Q&A", "date": "9/7/20" }
+    {
+      "startDt": "30/May/20",
+      "showTime" : false,
+      "type": "service_category_bootcamp",
+      "title": "Web development Lodigital MERN fullstack bootcamp",
+      "desc": "Learn from scratch HTML , CSS, JS, React, Node, Express, Node ,MongoDB",
+      "location" : "Lod , Israel \\ Zoom"
+    },
+    {
+      "startDt": "16/Apr/20 18:00",
+      "showTime" : true,
+      "title": "The next MERN Lodigital bootcamp - Q&A session",
+      "type": "service_category_qa",
+      "desc": "No prior knowledge in programming is required. This session is free",
+      "location": "Israel \\ Zoom"
+    }
 ]

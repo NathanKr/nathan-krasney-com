@@ -16,14 +16,13 @@ const EventsSlide = () => {
       .catch((err) => console.log(err));
   }, []);
 
-
   return (
     <div className="EventsSlide">
       <div className="EventsSlide-container">
         {EventsSildeArray ? EventsSildeArray.map((eventS, index) => (
           <div key={index} className="EventsSlide-text">
-            <h4 className="EventsSlide-name">{eventS.eventName}</h4>
-            <p className="EventsSlide-date">{eventS.date}</p>
+            <h4 className="EventsSlide-name">{eventS.title}</h4>
+            <p className="EventsSlide-date">{eventS.startDt}</p>
           </div>
         )) : 'Loading...'}
       </div>

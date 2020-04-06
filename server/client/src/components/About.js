@@ -3,9 +3,10 @@ import "./About.css";
 import nathanProfile from '../images/nathan-profile.jpg';
 // import nathanProfile2 from '../images/nathan-profile-2.jpg';
 
-import nathanStandPic from '../images/nathan-stand-pic.png';
+import nathanStandPic from '../images/nathan-stand-pic.png'
 import nathanStandPic2 from '../images/nathan-stand-pic-2.png';
-import nathanStandPic3 from '../images/nathan-stand-pic-3.png';
+import present from '../images/present.jpeg'
+import nathanProfile2 from '../images/nathan-profile-2.jpg'
 
 const About = () => {
   return (
@@ -35,10 +36,13 @@ const About = () => {
             <img src={nathanStandPic} alt="img"/>
           </div>
           <div className="About-description-img-1 img">
+            <img src={present} alt="img"/>
+          </div>
+          <div className="About-description-img-1 img">
             <img src={nathanStandPic2} alt="img"/>
           </div>
           <div className="About-description-img-1 img">
-            <img src={nathanStandPic3} alt="img"/>
+            <img src={nathanProfile2} alt="img"/>
           </div>
         </div>
       </div>

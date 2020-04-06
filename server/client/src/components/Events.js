@@ -20,13 +20,13 @@ const Events = () => {
       location: "Lod , Israel \\ Zoom",
     },
     {
-      startDt: new Date(2020, 3, 16, 17),
+      startDt: new Date(2020, 3, 16, 18),
       showTime: true,
-      title: "Introducing the next MERN Lodigital bootcamp - Q&A session",
+      title: "The next MERN Lodigital bootcamp - Q&A session",
       type: service_category_qa,
       desc:
-        "No prior knowledge in programming is required. This session is free.",
-      location: "Zoom",
+        "No prior knowledge in programming is required. This session is free",
+      location: "Iarael \\ Zoom",
     },
   ];
   const elements = events.map((item, index) => (

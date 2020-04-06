@@ -3,7 +3,7 @@ import moment from "moment";
 import "./Event.css";
 import eventPagePic from "../images/eventPage-pic-1.jpg";
 
-const Event = ({ startDt, showTime, type, title, desc }) => {
+const Event = ({ startDt, showTime, type, title, desc , location}) => {
   const dateTime = moment(startDt);
   const dateTimeFormated = showTime
     ? dateTime.format("DD/MMM/YYYY - hh:mm A")
@@ -21,7 +21,7 @@ const Event = ({ startDt, showTime, type, title, desc }) => {
       <div className="Event-desc-container">
         <h4 className="Event-name">{title}</h4>
         <p className="Event-desc">{desc}</p>
-        <small className="Event-cost">Cost: Free</small>
+        <small className="Event-cost">Location : {location} </small>
       </div>
     </div>
   );

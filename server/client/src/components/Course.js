@@ -29,18 +29,18 @@ const onlineCoursesArray = [
 
 const bootcampsCoursesArray = [
   {
-    bootcampName: "Web Develpment Bootcamps (Front  Fullstack)",
-    subTitle: "FullStack Bootcamp",
+    bootcampName: "Web Develpment Bootcamp",
+    subTitle: "Frontend web developemnt bootcamp",
     imgSrc: coursesPagePicbootcamp,
     desc:
-      "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum",
+      "Learn from scratch HTML , CSS , JavaScript , React , Bootstrap , JQuery , Git. I will teach you frontend concepts and how to learn and you will combine this in projects",
   },
   {
-    bootcampName: "Web Develpment Bootcamps (Front  Fullstack)",
-    subTitle: "FullStack Bootcamp",
+    bootcampName: "Web Develpment Bootcamp",
+    subTitle: "FullStack web development MERN bootcamp",
     imgSrc: coursesPagePicbootcamp,
     desc:
-      "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum",
+      "Learn from scratch HTML , CSS , JavaScript , React , Bootstrap , JQuery , Git , Node , Express , MongoDB .I will teach you frontend\\backend concepts and how to learn and you will combine this in projects",
   },
 ];
 

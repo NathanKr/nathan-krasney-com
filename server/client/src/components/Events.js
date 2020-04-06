@@ -14,7 +14,7 @@ const Events = () => {
       startDt: new Date(2020, 4, 30),
       showTime: false,
       type: service_category_bootcamp,
-      title: "Web development MERN fullstack bootcamp",
+      title: "Web development Lodigital MERN fullstack bootcamp",
       desc:
         "Learn from scratch HTML , CSS, JS, React, Node, Express, Node ,MongoDB",
       location: "Lod , Israel \\ Zoom",
@@ -22,7 +22,7 @@ const Events = () => {
     {
       startDt: new Date(2020, 3, 16, 17),
       showTime: true,
-      title: "Introducing the next MERN bootcamp - Q&A session",
+      title: "Introducing the next MERN Lodigital bootcamp - Q&A session",
       type: service_category_qa,
       desc:
         "No prior knowledge in programming is required. This session is free.",

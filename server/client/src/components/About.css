@@ -100,5 +100,9 @@
   .About-description-details {
     font-size: 0.75rem;
   }
+
+  .About-img img {
+    height: 20rem;
+  }
   
 }

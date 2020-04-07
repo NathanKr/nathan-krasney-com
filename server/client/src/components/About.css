@@ -41,18 +41,18 @@
 
 .About-description-images {
   display: flex;
-  margin-right: 1.2rem;
+  margin: 1rem;
   flex-wrap: wrap;
 }
 
 .About-description-images .img {
-  margin-right: 1rem;
-  margin-bottom: 1rem;
+  margin: 1rem;
   max-width: 100%;
   width: 300px;
   border: 2px solid var(--black-color);
   border-radius: 3px;
 }
+
 
 .About-description-images .img img {
   max-width: 100%;
@@ -61,6 +61,7 @@
   object-fit: cover;
   object-position: center 30%;
 }
+
 
 
 /* Media Queries */

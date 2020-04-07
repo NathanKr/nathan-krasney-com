@@ -16,16 +16,6 @@ const Top = () => {
     <div className="Top">
       <header className="header">
         {
-          /* <div className="Top-inner-container">
-          <h2><span className="nameColor">Nathan</span> Krasney</h2>
-          <Link to="/">Home</Link>
-          <Link to="/About">About</Link>
-          <Link to="/Contact">Contact</Link>
-          <Link to="/Courses">Courses</Link>
-          <Link to="/Mentoring">Mentoring</Link>
-          <Link to="/Testimonials">Testimonials</Link>
-          <Link to="/Events">Events</Link>
-        </div> */
           <Navbar collapseOnSelect expand="xl"  variant="dark">
             <Navbar.Brand>
               <h2>

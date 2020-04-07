@@ -21,7 +21,7 @@ const EventsSlide = () => {
       <div className="EventsSlide-container">
         {EventsSildeArray ? EventsSildeArray.map((eventS, index) => (
           <div key={index} className="EventsSlide-text">
-            <h4 className="EventsSlide-name">{eventS.title}</h4>
+            <h5 className="EventsSlide-name">{eventS.title}</h5>
             <p className="EventsSlide-date">{eventS.startDt}</p>
           </div>
         )) : 'Loading...'}

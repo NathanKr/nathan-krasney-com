@@ -94,3 +94,15 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media screen and (max-width: 600px) {
+ .bootcamp-details-subtitle {
+   font-size: 1rem;
+   text-align: center;
+ }
+
+ .bootcamp-details-desc {
+   font-size: 0.9rem;
+   text-align: center;
+ }
+}

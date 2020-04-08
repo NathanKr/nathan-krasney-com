@@ -77,6 +77,10 @@
 
   .About-description {
     text-align: center;
+    padding: 1rem;
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
   }
 
   .About-description-images {
@@ -87,6 +91,7 @@
 @media screen and (max-width: 681px) {
   .About-description-details {
     font-size: 1rem;
+    padding: 1rem;
   }
 }
 
@@ -98,7 +103,21 @@
 
 @media screen and (max-width: 450px) {
   .About-description-details {
-    font-size: 0.75rem;
+    font-size: 0.7rem;
+    line-height: 1.8;
+    font-size: 0.6rem;
+  }
+
+  .About-img img {
+    height: 20rem;
+  }
+
+  .About-description-title {
+    font-size: 1.6rem;
+  }
+
+  .About-description-subtitle {
+    font-size: 1.1rem;
   }
   
 }

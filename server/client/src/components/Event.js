@@ -1,7 +1,7 @@
 import React from "react";
 import moment from "moment";
 import "./Event.css";
-import eventPagePic from "../images/eventPage-pic-1.jpg";
+import eventPagePic from "../images/eventPage-pic.jpg";
 
 const Event = ({ startDt, showTime, type, title, desc, location }) => {
   const dateTime = moment(startDt);

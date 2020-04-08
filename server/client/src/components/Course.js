@@ -1,6 +1,6 @@
 import React from "react";
 import "./Course.css";
-import coursesPagePicbootcamp from "../images/coursesPage-pic-2.jpg";
+import coursesPagePicbootcamp from "../images/coursesPage-pic.jpg";
 
 import deployAppImg from "../images/deploy-app-img.png";
 import learnReact from "../images/learn-react.png";

@@ -4,9 +4,9 @@ import nathanProfile from '../images/nathan-profile.jpg';
 // import nathanProfile2 from '../images/nathan-profile-2.jpg';
 
 import nathanStandPic from '../images/nathan-stand-pic.png'
-import nathanStandPic2 from '../images/nathan-stand-pic-2.png';
+import nathanStandPic2 from '../images/nathan-stand-peoples.png';
 import present from '../images/present.jpeg'
-import nathanProfile2 from '../images/nathan-profile-2.jpg'
+import nathanProfile2 from '../images/nathan-profile-wall.jpg'
 
 const About = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Courses.css";
-import { onlineCourses, bootcampCourses } from "./Course";
+import { onlineCourses, bootcampCourses } from "./CoursesEngine";
 
 const Courses = () => {
   return (

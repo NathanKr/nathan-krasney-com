@@ -1,5 +1,5 @@
 import React from "react";
-import "./Course.css";
+import "./CoursesEngine.css";
 import coursesPagePicbootcamp from "../images/coursesPage-pic.jpg";
 
 import deployAppImg from "../images/deploy-app-img.png";

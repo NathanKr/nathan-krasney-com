@@ -41,5 +41,6 @@
 .icon-container-para {
     margin-top: 0.5rem;
     text-align: center;
-    font-weight: bold;
+    font-weight: bolder;
+    color: var(--name-color);
 }

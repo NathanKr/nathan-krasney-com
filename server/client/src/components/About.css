@@ -7,6 +7,8 @@
   color: var(--black-color);
 }
 
+
+
 .About-img {
   margin: 0 1.5rem;
   flex: 0 0 40%;
@@ -37,6 +39,7 @@
 
 .About-description-details {
   font-size: 1.2rem;
+  line-height: 1.6;
 }
 
 .About-description-images {
@@ -92,20 +95,23 @@
   .About-description-details {
     font-size: 1rem;
     padding: 1rem;
+    word-break: break-word;
   }
 }
 
 @media screen and (max-width: 561px) {
   .About-description-details {
-    font-size: 0.8rem;
+    font-size: 1rem;
+    word-break: break-word;
   }
 }
 
 @media screen and (max-width: 450px) {
   .About-description-details {
-    font-size: 0.7rem;
-    line-height: 1.8;
-    font-size: 0.6rem;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    word-break: break-word;
   }
 
   .About-img img {

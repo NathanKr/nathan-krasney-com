@@ -26,7 +26,7 @@ const About = () => {
           I have my own business for software development and teaching
           courses for the last 8 years.
           I have led 3 successful web full-stack bootcamps.
-          I have 3 online courses on udemy using my unique way of teaching.
+          I have 3 online courses on udemy.using my unique way of teaching.
           All of this gives me the experience and capabilities required to
           mentor junior web developer in the way to first programming job
         </p>

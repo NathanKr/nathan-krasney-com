@@ -36,7 +36,7 @@ const bootcampsCoursesArray = [
       "Learn from scratch HTML , CSS , JavaScript , React , Bootstrap , JQuery , Git. I will teach you frontend concepts and how to learn and you will combine this in projects",
   },
   {
-    bootcampName: "Web Develpment Bootcamp",
+    bootcampName: "FullStack Web Development",
     subTitle: "FullStack web development MERN bootcamp",
     imgSrc: coursesPagePicbootcamp,
     desc:

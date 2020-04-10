@@ -103,12 +103,11 @@
 
 @media screen and (max-width: 450px) {
   .About-description-details {
-    margin: auto !important;
+    padding: 1rem 0 !important;
     width: 100%;
     font-size: 0.7rem;
     line-height: 1.8;
-    font-size: 0.68rem;
-    min-height: 300px;
+    font-size: 0.71rem;
     justify-content: stretch !important;
   }
 

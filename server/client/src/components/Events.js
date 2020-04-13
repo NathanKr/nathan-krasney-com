@@ -1,10 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Event from "./Event";
-// import {
-//   service_category_bootcamp,
-//   service_category_qa,
-// } from "../logic/serviceCategories";
-
+import { Helmet } from "react-helmet";
 import "./Events.css";
 
 const Events = () => {
@@ -38,6 +34,13 @@ const Events = () => {
 
   return (
     <div className="Events">
+      <Helmet>
+        <title>Nathan Krasney | Web Development Courses & Mentoring</title>
+        <meta
+          name="description"
+          content="Web developer , register to these web development events. Number of sits is limited"
+        />
+      </Helmet>
       <h1 className="Events-title">Upcoming Events</h1>
       <div className="Events-container">{elements}</div>
     </div>
@@ -45,5 +48,3 @@ const Events = () => {
 };
 
 export default Events;
-
-

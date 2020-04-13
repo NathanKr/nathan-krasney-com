@@ -1,18 +1,26 @@
 import React from "react";
 import "./About.css";
-import nathanProfile from '../images/nathan-profile.jpg';
-// import nathanProfile2 from '../images/nathan-profile-2.jpg';
+import nathanProfile from "../images/nathan-profile.jpg";
+import { Helmet } from "react-helmet";
 
-import nathanStandPic from '../images/nathan-stand-pic.png'
-import nathanStandPic2 from '../images/nathan-stand-peoples.png';
-import present from '../images/present.jpeg'
-import nathanProfile2 from '../images/nathan-profile-wall.jpg'
+import nathanStandPic from "../images/nathan-stand-pic.png";
+import nathanStandPic2 from "../images/nathan-stand-peoples.png";
+import present from "../images/present.jpeg";
+import nathanProfile2 from "../images/nathan-profile-wall.jpg";
 
 const About = () => {
   return (
     <div className="About">
+      <Helmet>
+        <title>Nathan Krasney | Web Development Courses & Mentoring</title>
+        <meta
+          name="description"
+          content="Let professional teach you web development and mentor you in the way to your first job as a junior web developer"
+        />
+      </Helmet>
+
       <div className="About-img">
-        <img src={nathanProfile} alt="img"/>
+        <img src={nathanProfile} alt="img" />
       </div>
 
       <div className="About-description">
@@ -33,16 +41,16 @@ const About = () => {
 
         <div className="About-description-images">
           <div className="About-description-img-1 img">
-            <img src={nathanStandPic} alt="img"/>
+            <img src={nathanStandPic} alt="img" />
           </div>
           <div className="About-description-img-1 img">
-            <img src={present} alt="img"/>
+            <img src={present} alt="img" />
           </div>
           <div className="About-description-img-1 img">
-            <img src={nathanStandPic2} alt="img"/>
+            <img src={nathanStandPic2} alt="img" />
           </div>
           <div className="About-description-img-1 img">
-            <img src={nathanProfile2} alt="img"/>
+            <img src={nathanProfile2} alt="img" />
           </div>
         </div>
       </div>

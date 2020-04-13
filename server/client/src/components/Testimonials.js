@@ -1,7 +1,7 @@
 import React from "react";
-// import ClickedTestimonial from "./ClickedTestimonial";
 import { testimonial_category_bootcamp } from "../logic/testimonialCategories";
 import "./Testimonials.css";
+import { Helmet } from "react-helmet";
 
 const Testimonials = () => {
   const array = [
@@ -52,8 +52,7 @@ const Testimonials = () => {
       job: "Starszy Programista Salesforce / Accenture",
       desc:
         "'Very great course. I've learned React in a really fast way. Exercises after each lesson gives a lot. Response from a teacher is really quick. :)' ",
-      href:
-        "https://www.linkedin.com/in/%C5%82ukasz-franczyk-b76333146/",
+      href: "https://www.linkedin.com/in/%C5%82ukasz-franczyk-b76333146/",
       img_src:
         "https://media-exp1.licdn.com/dms/image/C5103AQE9gi3XrebUmw/profile-displayphoto-shrink_800_800/0?e=1591833600&v=beta&t=15nimASkr9T6n4prWTVum9_9mYS9rgtlyCbrkiSNs50",
     },
@@ -81,6 +80,13 @@ const Testimonials = () => {
 
   return (
     <div className="Testimonials">
+      <Helmet>
+        <title>Nathan Krasney | Web Development Courses & Mentoring</title>
+        <meta
+          name="description"
+          content="Check what web developers think about Nathan Krasney"
+        />
+      </Helmet>
       <h1 className="Testimonials-title">Success stories from students</h1>
       {items}
     </div>

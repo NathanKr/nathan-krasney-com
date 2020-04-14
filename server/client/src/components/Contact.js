@@ -10,7 +10,7 @@ const Contact = () => {
         <title>Nathan Krasney | Web Development Courses & Mentoring</title>
         <meta
           name="description"
-          content="Contact for details on online react courses, web development bootcamps and mentoring program for junior web developers"
+          content="Contact me for details on online react courses, web development bootcamps and mentoring program for junior web developers"
         />
       </Helmet>
 

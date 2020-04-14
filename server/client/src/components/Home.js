@@ -10,7 +10,7 @@ const Home = () => {
         <title>Nathan Krasney | Web Development Courses & Mentoring</title>
         <meta
           name="description"
-          content="Learn web development in a unique and effective way .Junior web developer - join our special mentoring program"
+          content="Learn web development in a unique and effective way .Junior web developer - join our special mentoring program. Contact me for more info"
         />
       </Helmet>
       <EventsSlide />

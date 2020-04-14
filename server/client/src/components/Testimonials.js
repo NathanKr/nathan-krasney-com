@@ -84,7 +84,7 @@ const Testimonials = () => {
         <title>Nathan Krasney | Web Development Courses & Mentoring</title>
         <meta
           name="description"
-          content="Check what web developers think about Nathan Krasney"
+          content="Check what web developers think about Nathan Krasney. Contact me for any question"
         />
       </Helmet>
       <h1 className="Testimonials-title">Success stories from students</h1>

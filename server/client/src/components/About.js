@@ -15,7 +15,7 @@ const About = () => {
         <title>Nathan Krasney | Web Development Courses & Mentoring</title>
         <meta
           name="description"
-          content="Let professional teach you web development and mentor you in the way to your first job as a junior web developer"
+          content="Let professional teach you web development and mentor you in the way to your first job as a junior web developer. Contact me for more info"
         />
       </Helmet>
 

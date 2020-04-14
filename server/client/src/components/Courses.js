@@ -10,7 +10,7 @@ const Courses = () => {
         <title>Nathan Krasney | Web Development Courses & Mentoring</title>
         <meta
           name="description"
-          content="Join my unique online web development courses and web development bootcamp. Learn the concepts of web development and learn to learn"
+          content="Join my unique online web development courses and web development bootcamp. Learn the concepts of web development and learn to learn. Contact me for more info"
         />
       </Helmet>
       <div className="Courses-main-container">

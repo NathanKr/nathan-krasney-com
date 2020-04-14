@@ -15,7 +15,7 @@ const Mentoring = () => {
         <title>Nathan Krasney | Web Development Courses & Mentoring</title>
         <meta
           name="description"
-          content="Junior web developer, join my mentoring program in the way to your first job as junior web developer"
+          content="Junior web developer, join my mentoring program in the way to your first job as junior web developer. Contact me for more info"
         />
       </Helmet>
       <div className="Mentoring-container">

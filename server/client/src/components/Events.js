@@ -38,7 +38,7 @@ const Events = () => {
         <title>Nathan Krasney | Web Development Courses & Mentoring</title>
         <meta
           name="description"
-          content="Web developer , register to these web development events. Number of sits is limited"
+          content="Web developer , register to these web development events. Number of sits is limited. Contact me for more info"
         />
       </Helmet>
       <h1 className="Events-title">Upcoming Events</h1>

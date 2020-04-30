@@ -1,6 +1,6 @@
 [
     {
-      "startDt": "30/May/20",
+      "startDt": "31/May/20",
       "showTime" : false,
       "type": "service_category_bootcamp",
       "title": "Web development Lodigital MERN fullstack bootcamp",
@@ -8,7 +8,7 @@
       "location" : "Lod , Israel \\ Zoom"
     },
     {
-      "startDt": "26/Apr/20 18:00",
+      "startDt": "30/Apr/20 18:00",
       "showTime" : true,
       "title": "The next MERN Lodigital bootcamp - Q&A session",
       "type": "service_category_qa",

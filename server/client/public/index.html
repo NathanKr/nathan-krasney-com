@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics . should be first in head-->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-70254156-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-70254156-1");
+    </script>
+
     <meta charset="utf-8" />
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
     <link
@@ -32,10 +47,10 @@
       integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
       crossorigin="anonymous"
     />
-    
+
     <!-- title is important for SEO , it appears on the browser tab -->
     <!-- every page has its own using helmet <title>Nathan Krasney | Web Development Courses & Mentoring</title> -->
-    
+
     <!-- description is important for SEO -->
     <!--  every page has its own using helmet <meta
       name="description"

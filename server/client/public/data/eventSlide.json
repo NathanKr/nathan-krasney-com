@@ -6,6 +6,14 @@
       "title": "Web development Lodigital MERN fullstack bootcamp",
       "desc": "Learn from scratch HTML , CSS, JS, React, Express, Node ,MongoDB",
       "location" : "Lod , Israel \\ Zoom"
-    }
+    } ,
+    {
+      "startDt": "15/July/20",
+      "showTime" : false,
+      "type": "service_category_bootcamp",
+      "title": "Private one on one JAVA Web development fullstack bootcamp",
+      "desc": "Java , Design , Algorithms , Data structures , Git , Maven , HTML , CSS, JS, JQUERY , J2EE",
+      "location" : "Zoom"
+    } 
    
 ]

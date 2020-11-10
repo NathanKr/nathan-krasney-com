@@ -12,7 +12,7 @@ const Testimonials = () => {
       desc:
         `Good week Nathan. 
         I wanted to update you that I, Yaakov and Avshalom, have started working
-        Today at Wix.
+        today at Wix.
         I also wanted to thank you for the courses at UDEMY
         and for the help you gave ,so thank you very much :)`,
       href: "https://www.linkedin.com/in/tamrat-bayeh-6b1b53192/",

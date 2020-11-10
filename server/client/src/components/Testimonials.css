@@ -77,25 +77,4 @@
   object-fit: cover;
 }
 
-/* .carousel.slide {
-  border-radius: 3px !important;
-  border: 2px solid grey;
-}
 
-.Carousel-item-img {
-  display: block;
-  width: 100%;
-  height: 30rem;
-  object-fit: fill;
-  object-position: center;
-}
-
-.carousel-indicators li {
-    border: 3px solid var(--white-color);
-}
-
-@media screen and (max-width: 500px) {
-    .Carousel-item-img {
-        object-fit: cover;
-    }
-} */

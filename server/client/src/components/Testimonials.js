@@ -7,6 +7,20 @@ const Testimonials = () => {
   const array = [
     {
       testimonial_category: testimonial_category_bootcamp,
+      name: "Tamrat Bayeh",
+      job: "Frontend Developer / Wix",
+      desc:
+        `Good week Nathan. 
+        I wanted to update you that I, Yaakov and Avshalom, have started working
+        Today at Wix.
+        I also wanted to thank you for the courses at UDEMY
+        And for the help you gave then thank you very much :)`,
+      href: "https://www.linkedin.com/in/tamrat-bayeh-6b1b53192/",
+      img_src:
+        "https://media-exp1.licdn.com/dms/image/C5603AQEmdymfnO8tfQ/profile-displayphoto-shrink_200_200/0?e=1610582400&v=beta&t=ifZWLPaQfqMckwEIlGF98VGYVrAUewm0jtCVKYU6voQ",
+    },
+    {
+      testimonial_category: testimonial_category_bootcamp,
       name: "mazal gevyan",
       job: "Fullstack Web Developer / Aman Group",
       desc:
